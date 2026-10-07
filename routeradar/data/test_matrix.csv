@@ -1,0 +1,401 @@
+test_id,city,country,category,source_type,text,expected_status,expected_block_route
+RR-01-official_closure,New York,US,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-01-social_rumor,New York,US,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-01-future_closure,New York,US,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-01-expired_closure,New York,US,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-01-unmapped_official,New York,US,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-01-public_conflict,New York,US,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-01-transit_advisory,New York,US,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-01-invalid_time,New York,US,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-02-official_closure,Los Angeles,US,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-02-social_rumor,Los Angeles,US,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-02-future_closure,Los Angeles,US,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-02-expired_closure,Los Angeles,US,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-02-unmapped_official,Los Angeles,US,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-02-public_conflict,Los Angeles,US,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-02-transit_advisory,Los Angeles,US,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-02-invalid_time,Los Angeles,US,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-03-official_closure,Chicago,US,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-03-social_rumor,Chicago,US,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-03-future_closure,Chicago,US,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-03-expired_closure,Chicago,US,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-03-unmapped_official,Chicago,US,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-03-public_conflict,Chicago,US,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-03-transit_advisory,Chicago,US,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-03-invalid_time,Chicago,US,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-04-official_closure,Toronto,CA,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-04-social_rumor,Toronto,CA,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-04-future_closure,Toronto,CA,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-04-expired_closure,Toronto,CA,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-04-unmapped_official,Toronto,CA,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-04-public_conflict,Toronto,CA,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-04-transit_advisory,Toronto,CA,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-04-invalid_time,Toronto,CA,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-05-official_closure,Vancouver,CA,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-05-social_rumor,Vancouver,CA,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-05-future_closure,Vancouver,CA,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-05-expired_closure,Vancouver,CA,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-05-unmapped_official,Vancouver,CA,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-05-public_conflict,Vancouver,CA,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-05-transit_advisory,Vancouver,CA,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-05-invalid_time,Vancouver,CA,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-06-official_closure,Mexico City,MX,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-06-social_rumor,Mexico City,MX,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-06-future_closure,Mexico City,MX,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-06-expired_closure,Mexico City,MX,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-06-unmapped_official,Mexico City,MX,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-06-public_conflict,Mexico City,MX,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-06-transit_advisory,Mexico City,MX,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-06-invalid_time,Mexico City,MX,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-07-official_closure,São Paulo,BR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-07-social_rumor,São Paulo,BR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-07-future_closure,São Paulo,BR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-07-expired_closure,São Paulo,BR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-07-unmapped_official,São Paulo,BR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-07-public_conflict,São Paulo,BR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-07-transit_advisory,São Paulo,BR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-07-invalid_time,São Paulo,BR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-08-official_closure,Rio de Janeiro,BR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-08-social_rumor,Rio de Janeiro,BR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-08-future_closure,Rio de Janeiro,BR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-08-expired_closure,Rio de Janeiro,BR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-08-unmapped_official,Rio de Janeiro,BR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-08-public_conflict,Rio de Janeiro,BR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-08-transit_advisory,Rio de Janeiro,BR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-08-invalid_time,Rio de Janeiro,BR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-09-official_closure,Buenos Aires,AR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-09-social_rumor,Buenos Aires,AR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-09-future_closure,Buenos Aires,AR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-09-expired_closure,Buenos Aires,AR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-09-unmapped_official,Buenos Aires,AR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-09-public_conflict,Buenos Aires,AR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-09-transit_advisory,Buenos Aires,AR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-09-invalid_time,Buenos Aires,AR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-10-official_closure,Bogotá,CO,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-10-social_rumor,Bogotá,CO,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-10-future_closure,Bogotá,CO,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-10-expired_closure,Bogotá,CO,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-10-unmapped_official,Bogotá,CO,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-10-public_conflict,Bogotá,CO,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-10-transit_advisory,Bogotá,CO,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-10-invalid_time,Bogotá,CO,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-11-official_closure,Lima,PE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-11-social_rumor,Lima,PE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-11-future_closure,Lima,PE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-11-expired_closure,Lima,PE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-11-unmapped_official,Lima,PE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-11-public_conflict,Lima,PE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-11-transit_advisory,Lima,PE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-11-invalid_time,Lima,PE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-12-official_closure,Santiago,CL,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-12-social_rumor,Santiago,CL,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-12-future_closure,Santiago,CL,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-12-expired_closure,Santiago,CL,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-12-unmapped_official,Santiago,CL,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-12-public_conflict,Santiago,CL,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-12-transit_advisory,Santiago,CL,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-12-invalid_time,Santiago,CL,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-13-official_closure,London,GB,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-13-social_rumor,London,GB,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-13-future_closure,London,GB,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-13-expired_closure,London,GB,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-13-unmapped_official,London,GB,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-13-public_conflict,London,GB,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-13-transit_advisory,London,GB,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-13-invalid_time,London,GB,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-14-official_closure,Paris,FR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-14-social_rumor,Paris,FR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-14-future_closure,Paris,FR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-14-expired_closure,Paris,FR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-14-unmapped_official,Paris,FR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-14-public_conflict,Paris,FR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-14-transit_advisory,Paris,FR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-14-invalid_time,Paris,FR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-15-official_closure,Berlin,DE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-15-social_rumor,Berlin,DE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-15-future_closure,Berlin,DE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-15-expired_closure,Berlin,DE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-15-unmapped_official,Berlin,DE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-15-public_conflict,Berlin,DE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-15-transit_advisory,Berlin,DE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-15-invalid_time,Berlin,DE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-16-official_closure,Madrid,ES,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-16-social_rumor,Madrid,ES,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-16-future_closure,Madrid,ES,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-16-expired_closure,Madrid,ES,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-16-unmapped_official,Madrid,ES,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-16-public_conflict,Madrid,ES,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-16-transit_advisory,Madrid,ES,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-16-invalid_time,Madrid,ES,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-17-official_closure,Rome,IT,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-17-social_rumor,Rome,IT,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-17-future_closure,Rome,IT,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-17-expired_closure,Rome,IT,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-17-unmapped_official,Rome,IT,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-17-public_conflict,Rome,IT,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-17-transit_advisory,Rome,IT,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-17-invalid_time,Rome,IT,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-18-official_closure,Amsterdam,NL,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-18-social_rumor,Amsterdam,NL,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-18-future_closure,Amsterdam,NL,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-18-expired_closure,Amsterdam,NL,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-18-unmapped_official,Amsterdam,NL,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-18-public_conflict,Amsterdam,NL,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-18-transit_advisory,Amsterdam,NL,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-18-invalid_time,Amsterdam,NL,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-19-official_closure,Brussels,BE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-19-social_rumor,Brussels,BE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-19-future_closure,Brussels,BE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-19-expired_closure,Brussels,BE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-19-unmapped_official,Brussels,BE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-19-public_conflict,Brussels,BE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-19-transit_advisory,Brussels,BE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-19-invalid_time,Brussels,BE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-20-official_closure,Zurich,CH,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-20-social_rumor,Zurich,CH,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-20-future_closure,Zurich,CH,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-20-expired_closure,Zurich,CH,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-20-unmapped_official,Zurich,CH,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-20-public_conflict,Zurich,CH,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-20-transit_advisory,Zurich,CH,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-20-invalid_time,Zurich,CH,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-21-official_closure,Vienna,AT,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-21-social_rumor,Vienna,AT,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-21-future_closure,Vienna,AT,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-21-expired_closure,Vienna,AT,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-21-unmapped_official,Vienna,AT,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-21-public_conflict,Vienna,AT,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-21-transit_advisory,Vienna,AT,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-21-invalid_time,Vienna,AT,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-22-official_closure,Stockholm,SE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-22-social_rumor,Stockholm,SE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-22-future_closure,Stockholm,SE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-22-expired_closure,Stockholm,SE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-22-unmapped_official,Stockholm,SE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-22-public_conflict,Stockholm,SE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-22-transit_advisory,Stockholm,SE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-22-invalid_time,Stockholm,SE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-23-official_closure,Copenhagen,DK,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-23-social_rumor,Copenhagen,DK,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-23-future_closure,Copenhagen,DK,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-23-expired_closure,Copenhagen,DK,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-23-unmapped_official,Copenhagen,DK,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-23-public_conflict,Copenhagen,DK,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-23-transit_advisory,Copenhagen,DK,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-23-invalid_time,Copenhagen,DK,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-24-official_closure,Warsaw,PL,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-24-social_rumor,Warsaw,PL,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-24-future_closure,Warsaw,PL,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-24-expired_closure,Warsaw,PL,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-24-unmapped_official,Warsaw,PL,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-24-public_conflict,Warsaw,PL,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-24-transit_advisory,Warsaw,PL,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-24-invalid_time,Warsaw,PL,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-25-official_closure,Istanbul,TR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-25-social_rumor,Istanbul,TR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-25-future_closure,Istanbul,TR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-25-expired_closure,Istanbul,TR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-25-unmapped_official,Istanbul,TR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-25-public_conflict,Istanbul,TR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-25-transit_advisory,Istanbul,TR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-25-invalid_time,Istanbul,TR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-26-official_closure,Athens,GR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-26-social_rumor,Athens,GR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-26-future_closure,Athens,GR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-26-expired_closure,Athens,GR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-26-unmapped_official,Athens,GR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-26-public_conflict,Athens,GR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-26-transit_advisory,Athens,GR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-26-invalid_time,Athens,GR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-27-official_closure,Dubai,AE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-27-social_rumor,Dubai,AE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-27-future_closure,Dubai,AE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-27-expired_closure,Dubai,AE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-27-unmapped_official,Dubai,AE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-27-public_conflict,Dubai,AE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-27-transit_advisory,Dubai,AE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-27-invalid_time,Dubai,AE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-28-official_closure,Abu Dhabi,AE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-28-social_rumor,Abu Dhabi,AE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-28-future_closure,Abu Dhabi,AE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-28-expired_closure,Abu Dhabi,AE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-28-unmapped_official,Abu Dhabi,AE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-28-public_conflict,Abu Dhabi,AE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-28-transit_advisory,Abu Dhabi,AE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-28-invalid_time,Abu Dhabi,AE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-29-official_closure,Riyadh,SA,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-29-social_rumor,Riyadh,SA,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-29-future_closure,Riyadh,SA,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-29-expired_closure,Riyadh,SA,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-29-unmapped_official,Riyadh,SA,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-29-public_conflict,Riyadh,SA,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-29-transit_advisory,Riyadh,SA,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-29-invalid_time,Riyadh,SA,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-30-official_closure,Doha,QA,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-30-social_rumor,Doha,QA,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-30-future_closure,Doha,QA,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-30-expired_closure,Doha,QA,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-30-unmapped_official,Doha,QA,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-30-public_conflict,Doha,QA,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-30-transit_advisory,Doha,QA,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-30-invalid_time,Doha,QA,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-31-official_closure,Cairo,EG,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-31-social_rumor,Cairo,EG,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-31-future_closure,Cairo,EG,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-31-expired_closure,Cairo,EG,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-31-unmapped_official,Cairo,EG,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-31-public_conflict,Cairo,EG,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-31-transit_advisory,Cairo,EG,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-31-invalid_time,Cairo,EG,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-32-official_closure,Lagos,NG,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-32-social_rumor,Lagos,NG,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-32-future_closure,Lagos,NG,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-32-expired_closure,Lagos,NG,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-32-unmapped_official,Lagos,NG,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-32-public_conflict,Lagos,NG,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-32-transit_advisory,Lagos,NG,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-32-invalid_time,Lagos,NG,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-33-official_closure,Nairobi,KE,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-33-social_rumor,Nairobi,KE,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-33-future_closure,Nairobi,KE,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-33-expired_closure,Nairobi,KE,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-33-unmapped_official,Nairobi,KE,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-33-public_conflict,Nairobi,KE,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-33-transit_advisory,Nairobi,KE,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-33-invalid_time,Nairobi,KE,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-34-official_closure,Johannesburg,ZA,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-34-social_rumor,Johannesburg,ZA,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-34-future_closure,Johannesburg,ZA,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-34-expired_closure,Johannesburg,ZA,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-34-unmapped_official,Johannesburg,ZA,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-34-public_conflict,Johannesburg,ZA,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-34-transit_advisory,Johannesburg,ZA,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-34-invalid_time,Johannesburg,ZA,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-35-official_closure,Cape Town,ZA,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-35-social_rumor,Cape Town,ZA,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-35-future_closure,Cape Town,ZA,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-35-expired_closure,Cape Town,ZA,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-35-unmapped_official,Cape Town,ZA,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-35-public_conflict,Cape Town,ZA,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-35-transit_advisory,Cape Town,ZA,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-35-invalid_time,Cape Town,ZA,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-36-official_closure,Mumbai,IN,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-36-social_rumor,Mumbai,IN,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-36-future_closure,Mumbai,IN,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-36-expired_closure,Mumbai,IN,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-36-unmapped_official,Mumbai,IN,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-36-public_conflict,Mumbai,IN,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-36-transit_advisory,Mumbai,IN,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-36-invalid_time,Mumbai,IN,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-37-official_closure,Delhi,IN,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-37-social_rumor,Delhi,IN,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-37-future_closure,Delhi,IN,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-37-expired_closure,Delhi,IN,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-37-unmapped_official,Delhi,IN,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-37-public_conflict,Delhi,IN,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-37-transit_advisory,Delhi,IN,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-37-invalid_time,Delhi,IN,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-38-official_closure,Bengaluru,IN,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-38-social_rumor,Bengaluru,IN,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-38-future_closure,Bengaluru,IN,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-38-expired_closure,Bengaluru,IN,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-38-unmapped_official,Bengaluru,IN,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-38-public_conflict,Bengaluru,IN,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-38-transit_advisory,Bengaluru,IN,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-38-invalid_time,Bengaluru,IN,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-39-official_closure,Singapore,SG,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-39-social_rumor,Singapore,SG,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-39-future_closure,Singapore,SG,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-39-expired_closure,Singapore,SG,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-39-unmapped_official,Singapore,SG,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-39-public_conflict,Singapore,SG,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-39-transit_advisory,Singapore,SG,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-39-invalid_time,Singapore,SG,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-40-official_closure,Bangkok,TH,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-40-social_rumor,Bangkok,TH,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-40-future_closure,Bangkok,TH,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-40-expired_closure,Bangkok,TH,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-40-unmapped_official,Bangkok,TH,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-40-public_conflict,Bangkok,TH,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-40-transit_advisory,Bangkok,TH,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-40-invalid_time,Bangkok,TH,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-41-official_closure,Kuala Lumpur,MY,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-41-social_rumor,Kuala Lumpur,MY,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-41-future_closure,Kuala Lumpur,MY,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-41-expired_closure,Kuala Lumpur,MY,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-41-unmapped_official,Kuala Lumpur,MY,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-41-public_conflict,Kuala Lumpur,MY,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-41-transit_advisory,Kuala Lumpur,MY,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-41-invalid_time,Kuala Lumpur,MY,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-42-official_closure,Jakarta,ID,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-42-social_rumor,Jakarta,ID,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-42-future_closure,Jakarta,ID,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-42-expired_closure,Jakarta,ID,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-42-unmapped_official,Jakarta,ID,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-42-public_conflict,Jakarta,ID,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-42-transit_advisory,Jakarta,ID,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-42-invalid_time,Jakarta,ID,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-43-official_closure,Hong Kong,HK,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-43-social_rumor,Hong Kong,HK,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-43-future_closure,Hong Kong,HK,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-43-expired_closure,Hong Kong,HK,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-43-unmapped_official,Hong Kong,HK,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-43-public_conflict,Hong Kong,HK,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-43-transit_advisory,Hong Kong,HK,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-43-invalid_time,Hong Kong,HK,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-44-official_closure,Shanghai,CN,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-44-social_rumor,Shanghai,CN,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-44-future_closure,Shanghai,CN,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-44-expired_closure,Shanghai,CN,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-44-unmapped_official,Shanghai,CN,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-44-public_conflict,Shanghai,CN,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-44-transit_advisory,Shanghai,CN,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-44-invalid_time,Shanghai,CN,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-45-official_closure,Beijing,CN,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-45-social_rumor,Beijing,CN,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-45-future_closure,Beijing,CN,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-45-expired_closure,Beijing,CN,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-45-unmapped_official,Beijing,CN,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-45-public_conflict,Beijing,CN,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-45-transit_advisory,Beijing,CN,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-45-invalid_time,Beijing,CN,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-46-official_closure,Tokyo,JP,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-46-social_rumor,Tokyo,JP,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-46-future_closure,Tokyo,JP,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-46-expired_closure,Tokyo,JP,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-46-unmapped_official,Tokyo,JP,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-46-public_conflict,Tokyo,JP,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-46-transit_advisory,Tokyo,JP,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-46-invalid_time,Tokyo,JP,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-47-official_closure,Osaka,JP,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-47-social_rumor,Osaka,JP,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-47-future_closure,Osaka,JP,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-47-expired_closure,Osaka,JP,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-47-unmapped_official,Osaka,JP,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-47-public_conflict,Osaka,JP,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-47-transit_advisory,Osaka,JP,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-47-invalid_time,Osaka,JP,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-48-official_closure,Seoul,KR,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-48-social_rumor,Seoul,KR,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-48-future_closure,Seoul,KR,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-48-expired_closure,Seoul,KR,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-48-unmapped_official,Seoul,KR,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-48-public_conflict,Seoul,KR,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-48-transit_advisory,Seoul,KR,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-48-invalid_time,Seoul,KR,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-49-official_closure,Sydney,AU,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-49-social_rumor,Sydney,AU,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-49-future_closure,Sydney,AU,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-49-expired_closure,Sydney,AU,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-49-unmapped_official,Sydney,AU,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-49-public_conflict,Sydney,AU,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-49-transit_advisory,Sydney,AU,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-49-invalid_time,Sydney,AU,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
+RR-50-official_closure,Melbourne,AU,official_closure,OFFICIAL,Official notice: Main Street closed due to event.,CONFIRMED,True
+RR-50-social_rumor,Melbourne,AU,social_rumor,SOCIAL,Viral post: Main Street is closed! Share now.,UNVERIFIED,False
+RR-50-future_closure,Melbourne,AU,future_closure,OFFICIAL,Scheduled closure of Main Street for a parade.,SCHEDULED,False
+RR-50-expired_closure,Melbourne,AU,expired_closure,OFFICIAL,Main Street closed during previous event.,EXPIRED,False
+RR-50-unmapped_official,Melbourne,AU,unmapped_official,OFFICIAL,Official notice: Main Street closed due to repairs.,CONFIRMED,False
+RR-50-public_conflict,Melbourne,AU,public_conflict,PUBLIC,"Someone says the road is blocked, another says open.",UNVERIFIED,False
+RR-50-transit_advisory,Melbourne,AU,transit_advisory,TRANSPORT_AUTHORITY,Official advisory: station entrance delayed; trains operating.,CONFIRMED,False
+RR-50-invalid_time,Melbourne,AU,invalid_time,SOCIAL,Breaking: road blocked now!,INVALID,False
